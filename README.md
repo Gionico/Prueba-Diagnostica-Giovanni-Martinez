@@ -2,9 +2,21 @@
 Scripts hechos en el lenguaje C++ para la resolución de 3 problemas planteados en la prueba diagnóstica de la materia Lenguajes y Compiladores.
 Se adjunta tambien un video subido a la plataforma de YouTube explicando el funcionamiento y explicación lógica de cada uno de los scripts presentados en este repositorio
 
+# Link del video explicativo
+https://youtu.be/jegn1vtI19s
+
 ## Configuraciones
 * **IDE UTILIZADO:** EMBARCADERO DEV-C++ 6.3
 * **COMPILADOR:** TDM-GCC 9.2.0 64-bit Release
+
+## Librerías utilizadas
+* **cctype** -> Permitiendo la verificacion de caracteres con isdigit(), isalpha(), isalnum(), isspace(c)
+
+* **string** -> Para trabajar con cadenas de texto y el uso de metodos como .length() y concatenacion
+
+* **vector** -> Uso de listas 
+
+* **sstream** -> Dividir strings como si fueran entradas (cin) 
 
 ## Problema 1: Detección de componentes dada una expresión aritmética
 El programa le pide al usuario que ingrese una expresión aritmética y al darle enter arrojará como salida todos los componentes que haya detectado.
